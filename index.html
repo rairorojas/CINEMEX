@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="AAA.css">
+    <title>LA GRAN PANTALLA</title>
+</head>
+<head><h1><center>LA GRAN PANTALLA</center></h1></head>
+<body bgcolor="#F0FFFF" text="000000"><hr>
+<h2><u><center>¡DISFRUTA DE HORAS DE DIVERCION!</center></u></h2>
+<body>
+    <section class="contenido">
+        <div class="mostrador" id="mostrador">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="1.JPG" alt="">
+                    </div>
+                    <p class="descripcion">BUSCANDO A MARIA</p>
+                    <span class="precio">$ 199</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="2.JPG" alt="">
+                    </div>
+                    <p class="descripcion" id>DONDE ESTAN LAS RUBIAS</p>
+                    <span class="precio">$ 250</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="3.JPG" alt="">
+                    </div>
+                    <p class="descripcion">TITANIC
+                    </p>
+                    <span class="precio">$ 299</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="4.JPG" alt="">
+                    </div>
+                    <p class="descripcion">LA MONJA</p>
+                    <span class="precio">$ 800</span>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="5.JPG" alt="">
+                    </div>
+                    <p class="descripcion">LOS MINIONS</p>
+                    <span class="precio">$ 130</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="6.JPG" alt="">
+                    </div>
+                    <p class="descripcion">MARIA BROS</p>
+                    <span class="precio">$ 300</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="7.JPG" alt="">
+                    </div>
+                    <p> <class="descripcion>HARRY POTTER</p>
+                    <span class="precio">$ 199</span>
+                </div>
+                <div class="item" onclick="cargar(this)">
+                    <div class="contenedor-foto">
+                        <img src="8.JPG" alt="">
+                    </div>
+                    <p class="descripcion">MONSTER INC</p>
+                    <span class="precio">$ 250</span>
+                </div>
+            </div> 
+        </div>
+        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+        <div class="seleccion" id="seleccion">
+            <div class="cerrar" onclick="cerrar()">
+                &#x2715
+            </div>
+            <div class="info">
+                <img src="img/1.png" alt="" id="img">
+                <h2 id="modelo">NIKE MODEL 1</h2>
+                <p id="descripcion">Descripción Modelo 1</p>
+
+                <span class="precio" id="precio">$ 130</span>
+
+                <div class="fila">
+                    <div class="size">
+                        <label for="">SIZE</label>
+                        <select name="" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                        </select>
+                    </div>
+                    <button>AGREGAR AL CARRITO</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="caro.js"></script>
+</body>
+</html>
